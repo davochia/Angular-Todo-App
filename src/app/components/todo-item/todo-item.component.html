@@ -1,0 +1,11 @@
+
+
+<div class="container" [ngClass]="setClasses()">
+    <button (click)="onDelete(todo)" class="del">X</button>
+    <input (change)="onToggle(todo)" type="checkbox"/>
+    <div class="todos-items">
+        <p> {{"Title: " }}<strong>{{ todo.title }}</strong></p>
+        <p>{{ "Description: " + todo.description }}</p>
+        <p>{{ "Date: " + todo.endDate }}</p>
+    </div>
+</div>

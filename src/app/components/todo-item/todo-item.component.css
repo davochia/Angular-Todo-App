@@ -1,0 +1,25 @@
+.del{
+    background: #2b95ff;
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+.todo{
+    background: #001a33;
+    padding: 10px;
+    color: #2b95ff;
+    border-bottom: 1px #2b95ff dotted;
+   
+}
+
+.todos-items{
+    margin-left: 20px;
+}
+
+.is-complete{
+    text-decoration: line-through;
+}

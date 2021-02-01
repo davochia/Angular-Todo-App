@@ -1,0 +1,12 @@
+ .container{
+   display: flex;
+   justify-content: start;
+   flex-direction: column;
+   margin: 16px;
+ }
+
+ .card{
+     margin-top: 20px;
+ }
+
+ 
